@@ -16,6 +16,7 @@ $ docker run -it --rm -v "$PWD":/go/src/app -w /go/src/app golang:1.14 bash
 /go/src/app
 
 # go get -d -v ./...
+# go get -u github.com/labstack/echo/...
 # go run hello-world.go
 ```
 
